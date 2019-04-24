@@ -64,3 +64,178 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	margin-top: 10px;
+}
+
+header nav a {
+	padding: 15px 45px 15px 10px;
+	text-decoration: none;
+	color: grey;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.section1 {
+	display: flex;
+	margin: 60px 40px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.section1left {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	align-content: space-between;
+	margin-left: 50px;
+}
+
+button {
+	font-size: 18px;
+	background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 35px;
+	margin-top: 15px;
+	align-items: center;
+}
+
+h1 {
+	font-size: 65px;
+	display: flex;
+	flex-wrap: column;
+	justify-content: center;
+}
+
+.section2 {
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding: 40px 0px;
+	border-top: 1px solid black;
+}
+
+.midImg {
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+.section3 {
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding: 40px 0px;
+	border-bottom: 1px solid black;
+}
+
+.section3content {
+	padding: 5px;
+}
+
+.lastSection {
+	display: flex;
+	flex-flow: column wrap;
+	margin: 40px 0px;
+}
+
+.phoneNumber {
+	margin: 20px 0px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 60px;
+}
+
+.servicesImg {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0px;
+}
+
+.servicesTopTitle {
+	font-family: 'Bangers', cursive;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.servicesTop {
+	padding: 0px 10px 40px 10px;
+	border-bottom: 1px solid black;
+}
+
+.servicesMain {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 20px 0px;
+	border-bottom: 3px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+	.servicesMain {
+		flex-flow: column wrap;
+	}
+	.servicesMainBox {
+		flex: 0 0 100%;
+	}
+}
+
+.servicesMainBox {
+	flex: 0 0 47%;
+	padding: 25px;
+	background-color: #eeeeee;
+	border: 1px solid black;
+	margin: 20px 0px;
+}
+
+button.servicesButton {
+	font-size: 10px;
+	background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 35px;
+	margin-top: 15px;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.servicesBot {
+	display: flex;
+	flex-flow: row;
+	padding-top: 40px;
+	justify-content: space-between;
+}
+
+.servicesBotLeft {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.servicesBotLeftText {
+	padding: 0px 40px 20px 0px;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+li {
+	margin: 10px 0px;
+}
